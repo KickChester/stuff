@@ -96,3 +96,18 @@ color: white;
     
 }
 
+.div3 ul{
+
+    position: relative;
+    top: -400px;
+    left: 100px;
+
+}
+
+.div3 a{
+
+color: white;
+font-size: 25px;
+
+
+}
