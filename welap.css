@@ -64,6 +64,7 @@ color: white;
     }
 
     .div2 a{
+        text-decoration: none;
         color: white;
         font-size: 25px;
         position: relative;
@@ -71,6 +72,25 @@ color: white;
         left: 40px;
         z-index: 2;
     }
+
+    .div2 a::after{
+        content: '';
+        display: block;
+        width: 0px;
+        height: 2px;
+        background-color: white;
+        transition: width 0.3s ease;
+    
+    
+    }
+    
+    .div2 a:hover::after{
+    
+    width: 20%;
+    
+    }
+
+
     
     .div3{
         height: 500px;
@@ -105,9 +125,26 @@ color: white;
 }
 
 .div3 a{
-
+text-decoration: none;
 color: white;
 font-size: 25px;
 
+
+}
+
+.div3 a::after{
+    content: '';
+    display: block;
+    width: 0px;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s ease;
+
+
+}
+
+.div3 a:hover::after{
+
+width: 12%;
 
 }
